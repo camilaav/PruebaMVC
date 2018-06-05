@@ -1,0 +1,8 @@
+<h1>Gracias por borrar a los alumnos</h1>
+
+<ul>
+    @foreach(var alumno in Data.Lista)
+    {
+        <li>@(alumno.Nombre + " " + alumno.Apellido)</li>
+    }
+</ul>

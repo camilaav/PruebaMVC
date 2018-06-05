@@ -1,0 +1,11 @@
+@model Alumno
+</br>
+@using(Html.BeginForm("Crear","Alumno", FormMethod.Post))
+{
+<p>
+Nombre: @Html.TextBoxFor(m=> m.Nombre)
+Apellido: @Html.TextBoxFor(m=> m.Apellido)
+</p>
+
+<input type= "submit" value= "Grabar"/>
+}
